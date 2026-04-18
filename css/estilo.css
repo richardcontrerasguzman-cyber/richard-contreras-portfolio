@@ -227,15 +227,21 @@ text-decoration: none;
 
 /* IMAGEN PLACEHOLDER */
 .img-placeholder {
-background-image: url(../medios/Avatar.png);
- width: 450px;
- height: 100%;
- background-size: cover;
- background-position: center;
- margin-left: 500px;
-display: flex;
- align-items: center;    
-height: 80vh;    
+    background-image: url(../medios/Avatar.png);
+
+    width: 100%;
+    max-width: 450px;
+
+    height: 80vh;
+
+    background-size: cover;
+    background-position: center;
+
+    margin: 0 auto; /* centra el bloque */
+
+    display: flex;
+    align-items: center;
+}   
   
     
     animation: glowColor 3s infinite alternate;
