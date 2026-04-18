@@ -1,0 +1,618 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 20px;
+        background-color: #045650;
+  background: 
+        linear-gradient(rgba(4, 86, 80, 0.85), rgba(4, 86, 80, 0.85)),
+        url("../medios/imgtextura.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.nav {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: serif;
+    
+}
+
+.fila2{
+    justify-content: space-between;
+    align-items: center;
+    font-family: serif;
+
+}
+
+.fila2 ul{
+    display: flex;
+    gap: 20px;
+}
+
+.fila2 a{
+text-decoration: none;
+    color: #ffffff;
+    background: #b60b0b;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    font-weight: 400px;
+    border-radius: 12px;
+    position: relative;
+    z-index: 0;
+
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #ffffff;
+    background: #F39207;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    font-weight: 400px;
+    border-radius: 12px;
+    position: relative;
+    z-index: 0;
+    font-family:'Times New Roman', Times, serif
+}
+
+
+
+.fila col {
+    text-decoration: none;
+  
+    background: #ff0000;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    font-weight: 400px;
+    
+    position: relative;
+    z-index: 0;
+}
+
+@keyframes glowing{
+0% {
+        background-position: 0 0;
+}
+50% {
+    background-position: 400% 0;
+}
+100%{
+    background-position: 0 0;
+}
+}
+
+.nav a:hover::before{
+    opacity: 1;
+}
+
+/* LAYOUT */
+.fila1 {
+    
+   display: flex;
+    gap: 20px;
+    padding: 17px;
+   
+    flex-wrap: wrap;   
+}
+
+.fila {
+    
+   
+    gap: 20px;
+    padding: 17px;
+   
+    flex-wrap: wrap;   
+}
+
+.filacontacto {
+       background-color: #045650;
+  background: 
+        linear-gradient(rgba(4, 86, 80, 0.85), rgba(4, 86, 80, 0.85)),
+        url("../medios/imgtextura.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;   
+}
+
+
+
+.fila1 {
+    
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+
+.col1 {
+    
+    font-size: 40px;
+    color: white;
+    font-family: serif;
+    margin-left: 300px;
+    text-align: center;
+}
+
+.col-center {
+    width: 100%;
+    text-align: center;
+     padding: 20px;
+     color: white;
+     font-family: serif;
+     font-size: 0px;
+}
+
+/* SOFTWARE */
+.software1 {
+    background-image: url(../medios/Photoshop.png);
+    flex: 1;
+    width: 3px;
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+}
+
+.a1{
+    background-image: url(../medios/a1.png);
+}
+
+.software2 {
+    background-image: url(../medios/Illustrator1.png);
+    flex: 1;
+    width: 3px;
+    height: 300px;
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+  
+  
+}
+
+.software3 {
+    background-image: url(../medios/InDesign.png);
+    flex: 1;
+     width: 3px;
+    height: 300px;
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+}
+
+.software4 {
+    background-image: url(../medios/canva.png);
+    flex: 1;
+     width: 3px;
+    height: 300px;
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+}
+
+/* PROYECTOS */
+.proyecto {
+    flex: 1;
+    text-align: center;
+}
+
+/* IMAGEN PLACEHOLDER */
+.img-placeholder {
+background-image: url(../medios/Logo.png);
+ width: 900px;
+ height: 450px;
+ background-size: cover;
+ background-position: center;
+ margin-left: 500px;
+display: flex;
+ align-items: center;    
+height: 80vh;          
+}
+
+.presentacion {
+    margin-bottom: 100px;
+    color: #ffffff;
+    background: #F39207;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400px;
+    font-size: 30px;
+    position: relative;
+    z-index: 0;
+    font-family:'Times New Roman', Times, serif
+}
+
+.presentacion1 {
+    margin-bottom: 100px;
+    color: #ffffff;
+    
+    text-align: center;
+    font-weight: 400px;
+    font-size: 50px;
+    position: relative;
+    font-family:'Times New Roman', Times, serif
+}
+
+h1{
+    transition: 0.3s;
+}
+
+h1:hover{
+    transform: scale(1.1);
+}
+
+
+
+/* FORMULARIO */
+.formulario {
+
+ background: #F39207;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(231, 3, 3, 0.2);
+ width: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.forcontacto{
+    text-align: center;
+}
+
+.contacto{
+    background-image: url(../medios/ab.jpg);
+ display: flex;
+    gap: 20px;
+    padding: 180px;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.con{
+    color:rgb(255, 255, 255) ;
+    font-size: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+      background-color: #045650;
+  background: 
+        linear-gradient(rgba(4, 86, 80, 0.85), rgba(4, 86, 80, 0.85)),
+        url("../medios/imgtextura.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 3px;
+    position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .fila {
+        flex-direction: column;
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+main{
+    background-color: #045650;
+  background: 
+        linear-gradient(rgba(4, 86, 80, 0.85), rgba(4, 86, 80, 0.85)),
+        url("../medios/imgtextura.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.redes a {
+
+  display: inline-block;
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #F39207;
+  color: white;
+  border-radius: 50%;
+  transition: 0.9s;
+}
+
+.redes a:hover {
+  background: #007bff;
+}
+
+.portafolio {
+  display: flex;
+  
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  border-radius: 15px;
+ flex: 100;
+    background:  #F39207;
+    padding: 50px;
+    text-align: center;
+}
+
+
+
+.card img {
+    background-image: url(../medios/6076266.jpg);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+
+.card1 img {
+    background-image: url(../medios/fotorafia.jpg);
+  width: 100%;
+  height: 100%;
+  
+  transition: 0.5s;     
+object-fit: contain;
+}
+.card1:hover img {
+  transform: scale(1.1);
+}
+.card1:hover .info {
+  transform: translateY(0);
+}
+.card1 {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  border-radius: 15px;
+ flex: 100;
+    background:  #F39207;
+    padding: 50px;
+    text-align: center;
+}
+
+.card2 img {
+    background-image: url(../medios/diseñobasico.jpg);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+.card2:hover img {
+  transform: scale(1.1);
+}
+.card2:hover .info {
+  transform: translateY(0);
+}
+.card2 {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  border-radius: 15px;
+ flex: 100;
+    background:  #F39207;
+    padding: 50px;
+    text-align: center;
+}
+
+.card3 img {
+    background-image: url(../medios/disenoeditorial.jpg);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+.card3:hover img {
+  transform: scale(1.1);
+}
+
+.card3:hover .info {
+  transform: translateY(0);
+}
+.card3 {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  border-radius: 15px;
+ flex: 100;
+    background:  #F39207;
+    padding: 50px;
+    text-align: center;
+}
+
+.card4 img {
+    background-image: url(../medios/diseñodepaginawed.jpg);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+.card4:hover img {
+  transform: scale(1.1);
+}
+.card4:hover .info {
+  transform: translateY(0);
+}
+.card4 {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  border-radius: 15px;
+ flex: 100;
+    background:  #F39207;
+    padding: 50px;
+    text-align: center;
+}
+
+.card5 img {
+    background-image: url(../medios/mercadeo\ digital.jpg);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+.card5:hover img {
+  transform: scale(1.1);
+}
+.card5:hover .info {
+  transform: translateY(0);
+}
+.card5 {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  border-radius: 15px;
+ flex: 100;
+    background:  #F39207;
+    padding: 50px;
+    text-align: center;
+}
+
+.card6 img {
+    background-image: url(../medios/artesgraficas.jpg);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+.card6:hover img {
+  transform: scale(1.1);
+}
+.card6:hover .info {
+  transform: translateY(0);
+}
+.card6 {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  border-radius: 15px;
+ flex: 100;
+    background:  #F39207;
+    padding: 50px;
+    text-align: center;
+}
+
+
+
+/* CAPA OCULTA */
+.info {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(100%);
+  transition: 0.5s;
+}
+
+/* EFECTO HOVER 🔥 */
+.card:hover img {
+  transform: scale(1.1);
+}
+
+.card:hover .info {
+  transform: translateY(0);
+}
+
+.info a {
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: #00c3ff;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.lista-habilidades{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.lista-habilidades li{
+    background: #045650; /* verde */
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px; /* estilo botón */
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.lista-habilidades li:hover{
+    background: #F39207; /* naranja */
+    transform: translateY(-5px); /* se levanta */
+}
+
+
+
+.lista-habilidades li:hover{
+    background: #F39207;
+    border-color: #F39207;
+    color: white;
+}
+
